@@ -1,0 +1,78 @@
+html {
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+li {
+  width: 33.333%;
+}
+
+.coco-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.coco {
+  border-left: 1px solid #a63f38;
+  border-right: 1px solid #a63f38;
+}
+
+img {
+  width: 40px;
+  height: auto;
+}
+
+header {
+  background-color: #d05c2e;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-weight: normal;
+  font-size: 1.125rem;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+  border: 1px solid #a63f38;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #fff;
+  font-weight: normal;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  font-size: 1.125rem;
+  max-width: 20em;
+  display: block;
+  padding: .2em .5em .3em;
+  background-color: #d05c2e;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #a63f38;
+  text-decoration: none;
+}
