@@ -2,6 +2,7 @@ html {
   font-family: Merriweather, serif;
   line-height: 1.5;
   box-sizing: border-box;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
@@ -14,7 +15,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #fff;
+  color: #512200;
   font-size: 2rem;
   margin: 0;
 }
@@ -31,8 +32,8 @@ li {
 }
 
 .coco {
-  border-left: 1px solid #a63f38;
-  border-right: 1px solid #a63f38;
+  border-left: 1px solid #512200;
+  border-right: 1px solid #512200;
 }
 
 img {
@@ -41,7 +42,7 @@ img {
 }
 
 header {
-  background-color: #d05c2e;
+  background-color: #cabdb2;
 }
 
 nav ul {
@@ -52,7 +53,7 @@ nav ul {
   text-align: center;
   margin: 0;
   padding-left: 0;
-  border: 1px solid #a63f38;
+  border: 1px solid #512200;
 }
 
 nav li {
@@ -60,7 +61,7 @@ nav li {
 }
 
 nav a {
-  color: #fff;
+  color: #512200;
   font-weight: normal;
   font-family: Georgia, serif;
   text-decoration: none;
@@ -68,11 +69,12 @@ nav a {
   max-width: 20em;
   display: block;
   padding: .2em .5em .3em;
-  background-color: #d05c2e;
+  background-color: #cabdb2;
   text-align: center;
 }
 
 a:hover {
-  background-color: #a63f38;
+  color: #fff;
+  background-color: #512200;
   text-decoration: none;
 }
