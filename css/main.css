@@ -117,6 +117,7 @@ h2, h3, p {
 .coco-wrap {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 1.5rem;
 }
 
 .coco-cards {
