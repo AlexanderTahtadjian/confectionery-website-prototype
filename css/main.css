@@ -127,6 +127,21 @@ h2, p {
     line-height: 1.4;
   }
 
+  .coco-head {
+    position: static;
+    max-width: 50em;
+    transform: none;
+  }
+
+  .coco-banner {
+    max-height: none;
+    overflow: visible;
+  }
+
+  h2, p {
+    color: #512200;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
