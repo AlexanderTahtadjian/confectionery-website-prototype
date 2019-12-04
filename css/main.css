@@ -172,10 +172,6 @@ h2, h3, p {
     overflow: visible;
   }
 
-  h2, h3, p {
-    color: #512200;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -202,8 +198,13 @@ h2, h3, p {
     margin-right: 1.5rem;
   }
 
+  h2, h3, p {
+    color: #fff;
+  }
+
   .coco-wrap {
     text-align: center;
+    position: relative;
   }
 
 }
