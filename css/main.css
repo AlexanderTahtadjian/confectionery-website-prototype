@@ -76,7 +76,6 @@ nav a {
   padding: .5em .75em;
   background-color: #cabdb2;
   text-align: center;
-
 }
 
 a:hover {
@@ -110,6 +109,7 @@ a:hover {
 h2, h3, p {
   color: #fff;
 }
+
 .coco-wrap {
   display: flex;
   flex-wrap: wrap;
