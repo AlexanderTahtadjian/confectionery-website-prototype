@@ -136,23 +136,6 @@ h2, h3, p {
   padding-right: 1.5rem;
 }
 
-.btn {
-  color: #fff;
-  text-decoration: none;
-  padding: .25em;
-  background-color: #512200;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.btn-small {
-  margin: 0 auto;
-}
-
-.btn:hover {
-  background-color: black;
-}
-
 @media only screen and (min-width: 25em) {
 
   nav li {
