@@ -50,6 +50,11 @@ header {
   background-color: #cabdb2;
 }
 
+footer {
+  background-color: #cabdb2;
+  text-align: center;
+}
+
 nav ul {
   display: flex;
   list-style-type: none;
