@@ -113,6 +113,10 @@ h2, h3, p {
 
 .coco-cards {
   padding-top: 1.5rem;
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .coco-text {
