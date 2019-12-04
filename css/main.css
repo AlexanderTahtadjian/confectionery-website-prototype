@@ -206,9 +206,19 @@ h2, h3, p {
     color: #512200;
   }
 
+  .coco-head {
+    position: unset;
+    transform: none;
+  }
+
   .coco-wrap {
     text-align: center;
     position: static;
+  }
+
+  .coco-text {
+    position: unset;
+    transform: none;
   }
 
 }
