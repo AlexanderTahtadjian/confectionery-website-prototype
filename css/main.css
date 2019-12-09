@@ -136,6 +136,30 @@ h2, h3, p {
   padding-right: 1.5rem;
 }
 
+.btn {
+  font-size: 1.125rem;
+  color: #512200;
+  font-weight: normal;
+  text-decoration: none;
+  max-width: 20em;
+  padding: .4em .75em .3em;
+  display: inline-block;
+  background-color: #cabdb2;
+  border-width: 3px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #cabdb2;
+}
+
+.btn:hover {
+  background-color: #512200;
+  border-color: #512200;
+  color: #fff;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
 
 @media only screen and (min-width: 25em) {
 
