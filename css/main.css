@@ -60,17 +60,14 @@ nav {
 }
 
 nav ul {
-  display: flex;
-  list-style-type: none;
-  font-weight: normal;
-  font-size: 1.125rem;
-  text-align: center;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
 }
 
 nav li {
-  width: 100%;
+  text-align: left;
 }
 
 nav a {
