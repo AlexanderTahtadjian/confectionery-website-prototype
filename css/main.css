@@ -57,17 +57,22 @@ footer {
 
 nav {
   text-align: left;
+  margin: .9rem;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   text-align: center;
+  font-size: 1.125rem;
+  font-weight: normal;
 }
 
 nav li {
-  text-align: left;
+  width: 100%;
 }
 
 nav a {
@@ -164,11 +169,18 @@ h2, h3, p {
 
 @media only screen and (min-width: 25em) {
 
-  nav li {
-    display: inline-block;
+  nav ul {
     text-align: center;
   }
 
+  nav li {
+    width: 50%;
+  }
+
+  nav a {
+    display: inline-block;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -180,6 +192,21 @@ h2, h3, p {
 
   h2, h3, p {
     color: #fff;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: .5em .75em;
+  }
+
+  nav li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+  }
+
+  nav a {
+    display: inline-block;
   }
 
   .coco-wrap {
@@ -219,8 +246,7 @@ h2, h3, p {
 
   h1,
   nav {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
   }
 
   h1 {
@@ -256,6 +282,15 @@ h2, h3, p {
 
   html {
     font-size: 130%;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  nav a {
+    display: inline-block;
+    text-align: center;
   }
 
 }
